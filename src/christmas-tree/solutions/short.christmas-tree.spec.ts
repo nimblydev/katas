@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest'
 import { christmasTree } from './short.christmas-tree'
 
 describe('christmas-tree', function () {
