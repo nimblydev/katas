@@ -1,3 +1,4 @@
 export function fizzBuzz(input: number): any {
-  return input.toString()
+  if (input % 3 === 0) return 'Fizz'
+  else return input.toString()
 }
