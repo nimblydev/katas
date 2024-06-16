@@ -14,4 +14,7 @@ describe('fizzBuzz', () => {
   it('should return "Fizz" when input is divisible by 3', () => {
     expect(fizzBuzz(3)).toBe('Fizz')
   })
+  it('should return "Buzz" when input is divisible by 5', () => {
+    expect(fizzBuzz(5)).toBe('Buzz')
+  })
 })
