@@ -8,4 +8,7 @@ describe('fizzBuzz', () => {
   it('should return 2 when input is 2', () => {
     expect(fizzBuzz(2)).toBe('2')
   })
+  it('should return same number when input is not divisible by 3 or 5', () => {
+    expect(fizzBuzz(4)).toBe('4')
+  })
 })
